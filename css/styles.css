@@ -7,6 +7,7 @@
     font-family: 'Tiro Kannada', serif;}
 html{
     scroll-behavior: smooth;
+    overflow-x: none;
 }
 .flex{
     display: flex;
@@ -297,6 +298,7 @@ color:rgb(0, 156, 148);
 #all-cont{
     width: 100%;
     height: auto;
+    flex-wrap: wrap;
 
 }
 #all-cont a {
